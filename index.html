@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Langding page</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        color: #ffffff;
+        font-weight: 300;
+    }
+
+    .header {
+        padding: 1rem 7rem;
+        display: flex;
+        align-items: center;
+        background-color: black;
+    }
+
+    .header p {
+        margin-left: 2rem;
+    }
+
+    .logo {
+        width: 110px;
+    }
+
+    .banner-img {
+        width: 100%;
+        max-height: 400px;
+    }
+
+    .banner {
+        position: relative;
+    }
+
+    .banner-item {
+        position: absolute;
+        top: 50%;
+        left: 6%;
+        transform: translate(0, -50%);
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        max-height: 200px;
+        padding: 1rem;
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .font-size-l {
+        font-size: 48px;
+    }
+
+    .font-size-m {
+        font-size: 20px;
+    }
+
+    .color-main {
+        color: #ffd300;
+    }
+
+    .btn-read-more {
+        padding: 0.5rem 2rem;
+        background-color: #ffd300;
+        max-width: 100px;
+        cursor: pointer;
+    }
+
+    .content {
+        padding: 3rem 6rem 1rem 6rem;
+        background-color: #000000bf;
+        margin-top: -5px;
+    }
+
+    .content-title {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .product-img {
+        max-width: 200px;
+        height: 100%;
+    }
+
+    .products-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .product-item {
+        width: 32%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .product-item img {
+        background: none;
+    }
+
+    .product-img-container {
+        text-align: center;
+        max-height: 200px;
+        height: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .product-name {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .btn-view-product {
+        background-color: #ffd300;
+        text-align: center;
+        cursor: pointer;
+        padding: 0.7rem;
+    }
+
+    .price {
+        font-size: 24px;
+        margin-top: 0.7rem;
+    }
+    .last-content {
+        margin-top: 5rem;
+        border-bottom: 1px solid #ffffff;
+    }
+    .footer{
+        background-color: #000000bf;
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+    .info-product-container {
+        margin-bottom: 3rem;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="./images/logo.svg" class="logo" alt="Girl in a jacket">
+            <p>Products</p>
+            <p>About us</p>
+        </div>
+        <div class="banner">
+            <img src="./images/herohob.jpg" class="banner-img" alt="Girl in a jacket">
+            <div class="banner-item">
+                <div>
+                    <p class="font-size-l color-main">HOBS</p>
+                    <p class="font-size-m color-main">ACCESSORIES & SPARE PARTS</p>
+                </div>
+                <div class="btn-read-more">
+                    READ MORE
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <p class="content-title font-size-l">HOBS</p>
+            <div class="products-container">
+                <div class="product-item">
+                    <div class="info-product-container">
+                        <div class="product-img-container">
+                            <img src="./images/hob1.png" class="product-img" alt="Girl in a jacket">
+                        </div>
+                        <p class="product-name">PLACE DE INDUCTION DE 36 CM</p>
+                        <P>For the ultimate level of flexibility, the zones on this
+                            induction hob adapt automatically to your cookware -ensuring even cooking
+                            results whatever the pan`s size or position
+                        </P>
+                        <br /><br />
+                        <p>MaxiSense Pure Technology</p>
+                        <br />
+                        <p>Direk Touch Controls</p>
+                    </div>
+                    <div>
+                        <div class="btn-view-product">View Product</div>
+                        <p class="price">6.305.000 VND</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div>
+                        <div class="product-img-container">
+                            <img src="./images/hob2.png" class="product-img" alt="Girl in a jacket">
+                        </div>
+                        <p class="product-name">60CM PURE 4 ZONE INDUCTION COOKTOP</p>
+                        <P>preparing many dishes at the same time or cooking for a dinner party? This hob is made
+                            for those occasions when you need more options, with equally
+                            tasty results.It`s FlexiBridge feature means you can
+                            customize your own cooking area, combining up to 4 segments with a consistent and
+                            heat distribution
+                        </P>
+                        <br /><br />
+                        <p>Residual Heat Indicator</p>
+                        <br />
+                        <p>Automax Function</p>
+                        <br />
+                        <p>Power Slide</p>
+                    </div>
+                    <div>
+                        <div class="btn-view-product">View Product</div>
+                        <p class="price">6.305.000 VND</p>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <div>
+
+                        <div class="product-img-container">
+                            <img src="./images/hob3.png" style="transform: rotate(90deg);" class="product-img"
+                                alt="Girl in a jacket">
+                        </div>
+                        <p class="product-name">80CM PREEZONE INDUCTION COOKTOP</p>
+                        <P>Get the very best taste and texture when frying, every single time. To start, just select the
+                            food and desired result. No more guessing when the pan or oil
+                            is at the right temperature. No more heat adjustments. With the SenseFry
+                            induction hob, great flavour is guaranteed
+                        </P>
+                        <br /><br />
+                        <p>SenseFry</p>
+                    </div>
+                    <div>
+                        <div class="btn-view-product">View Product</div>
+                        <p class="price">6.305.000 VND</p>
+                    </div>
+                </div>
+            </div>
+            <div class="last-content"></div>
+        </div>
+        <div class="footer">
+            <p>@2018 Niteco Viet Nam</p>
+        </div>
+    </div>
+</body>
+
+</html>
